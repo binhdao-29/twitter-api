@@ -1,7 +1,11 @@
-import express, { NextFunction, Request, Response } from 'express'
-import databaseService from './services/database.services'
-import userRoute from './routes/users.routes'
+import express from 'express'
 import { defaultErrorHandler } from './middlewares/error.middlewares'
+import userRoute from './routes/users.routes'
+import databaseService from './services/database.services'
+import { config } from 'dotenv'
+
+config()
+
 const app = express()
 app.use(express.json())
 

@@ -9,5 +9,10 @@ export const USERS_MESSAGES = {
   PASSWORD_IS_REQUIRED: 'Password is required',
   CONFIRM_PASSWORD_MUST_BE_STRING: 'Confirm password must be a string',
   CONFIRM_PASSWORD_IS_REQUIRED: 'Confirm password is required',
-  USER_NOT_FOUND: 'User not found'
+  EMAIL_OR_PASSWORD_IS_INCORRECT: 'Email or password is incorrect',
+  ACCESS_TOKEN_IS_REQUIRED: 'Access is required',
+  REFRESH_TOKEN_IS_REQUIRED: 'Refresh token is required',
+  REFRESH_TOKEN_IS_INVALID: 'Refresh token is invalid',
+  USED_REFRESH_TOKEN_OR_NOT_EXIST: 'Used refresh token or not exist',
+  LOGOUT_SUCCESS: 'Logged out successfully'
 } as const
